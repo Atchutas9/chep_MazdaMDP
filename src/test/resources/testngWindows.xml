@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MAZDA_MDP-Redevelopement_Suite">
+
+    
+    <listeners>
+        <listener class-name="au.com.mazda.MDP.Utility.Listener" />
+
+    </listeners>
+
+    
+    <test name="WindowsFirefoxTest">
+        <parameter name="browser" value="Windows - firefox" />
+
+       <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="WindowsChromeTest">
+        <parameter name="browser" value="Windows - chrome" />
+
+       <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="WindowsIE11Test">
+        <parameter name="browser" value="Windows - IE11" />
+
+       <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
+    <test name="browser-stack-Apple iPhone 5s" allow-return-values="true">
+        <parameter name="browser" value="browser-stack-Apple iPhone 5s" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                   <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="browser-stack-Apple iPhone 6+"
+        allow-return-values="true">
+        <parameter name="browser" value="browser-stack-Apple iPhone 6+" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                   <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="browser-stack-Apple iPhone 6s">
+        <parameter name="browser" value="browser-stack-Apple iPhone 6s" />
+         <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                   <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="browser-stack-Apple iPhone 6s+">
+        <parameter name="browser" value="browser-stack-Apple iPhone 6s+" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>   
+    
+     <test name="browser-stack-Apple iPhone 6">
+        <parameter name="browser" value="browser-stack-Apple iPhone 6" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                   <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>   
+     <test name="browser-stack-Samsung Galaxy S5">
+        <parameter name="browser" value="browser-stack-Samsung Galaxy S5" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>   
+     <test name="browser-stack-Samsung Galaxy S6">
+        <parameter name="browser" value="browser-stack-Samsung Galaxy S6" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>   
+     <test name="browser-stack-Samsung S6Edge">
+        <parameter name="browser" value="browser-stack-Samsung S6Edge" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                   <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>   
+   
+    
+     <test name="browser-stack-Note5">
+        <parameter name="browser" value="browser-stack-Note5" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>   
+     <test name="selenium-grid-win10-IE11">
+        <parameter name="browser" value="selenium-grid-win10-IE11" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes>
+    </test>   
+     <test name="selenium-grid-win10-MSEdge">
+        <parameter name="browser" value="selenium-grid-win10-MSEdge" />
+        <classes>
+            <class name="au.com.mazda.MDP.TestCases.FindAllLinks_Tc">
+                <methods>
+                    <exclude name="testVerifyLinksCampaigns" />
+                </methods>
+            </class>
+
+             <class name="au.com.mazda.MDP.TestCases.MenuTc">
+                <methods>
+                    <include name="testVerifyMenu"/>
+                </methods>
+            </class>
+
+            <class name="au.com.mazda.MDP.TestCases.PostCodePopUp_Tc">
+                <methods>
+                    <exclude name="testVerifyPostCodePopupPresence" />
+                    <exclude name="testVerifyClosePostCodePopUp" />
+                    <exclude name="testVerifySubmitPostCodepopUp" />
+                    <exclude name="testVerifyGetCookiePostCode" />
+                </methods>
+            </class>
+            <class name="au.com.mazda.MDP.TestCases.GalleryGrid_Tc">
+                <methods>
+                    <exclude name="testVerifyGalleryGridPresence" />
+                    <exclude name="testVerifyImagesPresence" />
+                    <exclude name="testVerifyVideosPresence" />
+                </methods>
+            </class>
+        </classes> 
+    </test>    
+
+</suite> <!-- Suite -->
